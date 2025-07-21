@@ -1,0 +1,61 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.pedidos-card, .detalhe-card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  margin-bottom: 1.5rem;
+}
+
+.cliente-info {
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 3px solid #007acc;
+}
+
+.cliente-info p {
+  margin: 0.3rem 0;
+}
+
+.total-pedido {
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: right;
+  border: 1px solid #007acc;
+}
+
+.total-pedido h4 {
+  margin: 0;
+  color: #007acc;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  .pedidos-card, .detalhe-card {
+    padding: 0.8rem;
+  }
+  
+  th, td {
+    padding: 0.4rem;
+    font-size: 0.9rem;
+  }
+}
